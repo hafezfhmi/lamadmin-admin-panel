@@ -1,42 +1,41 @@
-# 02 - Typealong React Admin Panel
+# lamadmin admin panel
 
-## Table of contents
+A simple admin panel from [React Admin Panel Tutorial](https://youtu.be/yKV1IGahXqA?si=xRvgnWZlBn2fVfQP)
 
-- [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [Conclusion](#conclusion)
-  - [Useful resources](#useful-resources)
+## Tech Stack
 
-## Overview
+**Client:** React, Sass
 
-### Screenshot
+## Run Locally
 
-![screenshot1](./resources//screenshot/Screenshot01.PNG)
-![screenshot2](./resources//screenshot/Screenshot02.PNG)
-![screenshot3](./resources//screenshot/Screenshot03.PNG)
-![screenshot4](./resources//screenshot/Screenshot04.PNG)
+Clone the project
 
-### Links
+```bash
+  git clone https://github.com/hafezfhmi/lamadmin-admin-panel.git
+```
 
-- Live Site URL: [Click here](https://02-typealong-react-admin-panel-tutorial.netlify.app/)
+Go to the project directory
 
-## My process
+```bash
+  cd lamadin-admin-panel
+```
 
-### Built with
+Install dependencies
 
-- [React](https://reactjs.org/) - JS library
-- [React Router DOM](https://reactrouter.com/) - React routing library
-- [Material UI](https://mui.com/) - React Component library
+```bash
+  npm install
+```
 
-### Conclusion
+Start the server
 
-- Had a try at Material UI library and it ease up the development process.
-- React Router DOM is quite easy to use and learn.
-- Implemented dark mode using useContext at App component so that all components are able to access the state of dark mode.
+```bash
+  npm run start
+```
 
-### Useful resources
+## Screenshots
 
-- Source Tutorial: [Click here](https://www.youtube.com/watch?v=yKV1IGahXqA)
+![App Screenshot](./resources/screenshot/Screenshot01.PNG)
+
+## Demo
+
+https://lamadmin-admin-panel.hafezfhmi.com
